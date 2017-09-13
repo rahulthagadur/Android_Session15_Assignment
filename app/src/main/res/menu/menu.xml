@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Setting Menu options-->
+    <item
+        android:id="@+id/settings_id"
+        android:title="Settings" />
+    <!--Add Icon -->
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/plus"
+        android:orderInCategory="100"
+        android:title="Add"
+        app:showAsAction="always" />
+    <!--Delete Icon-->
+    <item
+        android:id="@+id/delete_button"
+        android:icon="@drawable/delete1"
+        android:orderInCategory="100"
+        android:title="Add"
+        app:showAsAction="always" />
+</menu>
